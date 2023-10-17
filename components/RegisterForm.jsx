@@ -32,7 +32,7 @@ export default function RegisterForm() {
       const { user } = await resUserExists.json();
 
       if (user) {
-        setError("User already exists.");
+        setError("User is already exists");
         return;
       }
 
